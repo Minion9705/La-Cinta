@@ -1,0 +1,49 @@
+name: Actualizar alertas de la SEC
+
+on:
+  schedule:
+    # Cada 10 minutos, de lunes a viernes (GitHub puede retrasarlo unos minutos)
+    - cron: "*/10 * * * 1-5"
+    # Una vez cada 2 horas el fin de semana
+    - cron: "0 */2 * * 0,6"
+  workflow_dispatch: {}   # botón "Run workflow" para correrlo a mano
+
+permissions:
+  contents: write
+
+concurrency:
+  group: alertas
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Leer la SEC y generar alertas
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+          SITIO_URL: ${{ vars.SITIO_URL }}
+        run: python scripts/sec_alertas.py
+
+      - name: Guardar cambios
+        run: |
+          if git diff --quiet -- data/alertas.json; then
+            echo "Sin cambios"
+          else
+            git config user.name "la-cinta-bot"
+            git config user.email "la-cinta-bot@users.noreply.github.com"
+            git add data/alertas.json
+            git commit -m "Actualizar alertas"
+            git push
+          fi
