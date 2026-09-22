@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-09-22T20:17:37Z",
+ "actualizado": "2026-09-22T21:01:14Z",
  "alertas": [
+  {
+   "id": "0001199039-26-000016",
+   "ticker": "NVDA",
+   "empresa": "Nvidia",
+   "form": "4",
+   "fecha": "2026-09-22T16:56:23Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000016/0001199039-26-000016-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000016/xslF345X06/wk-form4_1790110579.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "int",
+   "sev": "neu",
+   "relevancia": 2,
+   "titulo": "Un directivo de Nvidia vendió $300,1 millones en acciones",
+   "pri": "Mark A Stevens (Consejero) vendió acciones de la empresa. Es común (impuestos, planes programados), así que por sí sola no es mala señal.",
+   "int": "Venta en mercado abierto (código S): 1.366.000 acciones a ~$219,73. Revisa si es un plan 10b5-1.",
+   "porque": "Las ventas de directivos son frecuentes; importan más si varios venden a la vez o si no hay plan programado."
+  },
   {
    "id": "0000796343-26-000156",
    "ticker": "ADBE",
@@ -85,6 +103,7 @@
   "0000796343-26-000156",
   "0001108524-26-000212",
   "0001193125-26-397059",
+  "0001199039-26-000016",
   "0001262388-26-000018",
   "0001310215-26-000017"
  ]
