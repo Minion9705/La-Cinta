@@ -222,6 +222,7 @@ def mapa_tickers() -> dict[str, dict]:
 
 def nombre_bonito(nombre: str) -> str:
     """'APPLE INC.' -> 'Apple' ; quita sufijos legales comunes."""
+    nombre = re.sub(r"\s*/[A-Za-z]{2,3}/?\s*$", "", nombre.strip())  # 'CORP /DE/' -> 'CORP'
     n = re.sub(r"[,\.]?\s+(INC|CORP|CORPORATION|CO|COMPANY|LTD|PLC|HOLDINGS|GROUP|N\.V|S\.A|LP|L\.P)\.?$", "",
                nombre.strip(), flags=re.I)
     n = re.sub(r"[,\.]?\s+(INC|CORP|CORPORATION|CO|HOLDINGS)\.?$", "", n, flags=re.I)
@@ -285,7 +286,9 @@ def analizar_form4(xml_texto: str) -> dict | None:
             acc_v += acciones
     if compras == 0 and ventas == 0:
         return None
-    return dict(nombre=nombre, cargo=cargo, compras=compras, ventas=ventas, acc_c=acc_c, acc_v=acc_v)
+    return dict(nombre=nombre, cargo=cargo, compras=compras, ventas=ventas, acc_c=acc_c, acc_v=acc_v,
+                emisor_cik=txt(raiz, "issuer/issuerCik"), emisor=txt(raiz, "issuer/issuerName"),
+                emisor_ticker=txt(raiz, "issuer/issuerTradingSymbol").upper())
 
 
 def dinero(v: float) -> str:
@@ -311,8 +314,31 @@ def persona(nombre: str) -> str:
     return nombre.title()
 
 
-def alerta_form4(base: dict, f4: dict) -> dict | None:
+def alerta_form4(base: dict, f4: dict, cik: int = 0) -> dict | None:
     e = base["empresa"]
+    try:
+        emisor_cik = int(f4.get("emisor_cik") or 0)
+    except ValueError:
+        emisor_cik = 0
+    if cik and emisor_cik and emisor_cik != cik:
+        # La empresa aparece como accionista de OTRA empresa (p. ej. Berkshire comprando acciones de Occidental)
+        otra = nombre_bonito(f4.get("emisor") or "otra empresa")
+        tk = f" ({f4['emisor_ticker']})" if f4.get("emisor_ticker") else ""
+        if f4["compras"] >= MIN_COMPRA_DIRECTIVO and f4["compras"] >= f4["ventas"]:
+            precio = f4["compras"] / f4["acc_c"] if f4["acc_c"] else 0
+            return {**base, "tipo": "otros", "sev": "neu", "relevancia": 3 if f4["compras"] >= 1e8 else 2,
+                    "titulo": f"{e} compró {dinero(f4['compras'])} en acciones de {otra}{tk}",
+                    "pri": f"{e} invirtió más dinero en otra empresa, {otra}, y aumentó su participación en ella.",
+                    "int": f"Compra en mercado abierto (código P): {num_es(f4['acc_c'])} acciones de {otra}{tk} a ~${num_es(precio, 2)}. {e} reporta como accionista de más del 10 %.",
+                    "porque": f"Muestra en qué está poniendo su dinero {e}; para los accionistas de {otra} suele leerse como un voto de confianza."}
+        if f4["ventas"] >= MIN_VENTA_DIRECTIVO:
+            precio = f4["ventas"] / f4["acc_v"] if f4["acc_v"] else 0
+            return {**base, "tipo": "otros", "sev": "neu", "relevancia": 3 if f4["ventas"] >= 1e8 else 2,
+                    "titulo": f"{e} vendió {dinero(f4['ventas'])} en acciones de {otra}{tk}",
+                    "pri": f"{e} vendió parte de lo que tenía invertido en otra empresa, {otra}.",
+                    "int": f"Venta en mercado abierto (código S): {num_es(f4['acc_v'])} acciones de {otra}{tk} a ~${num_es(precio, 2)}.",
+                    "porque": f"Reduce su apuesta por {otra}; para los accionistas de esa empresa puede pesar en el precio."}
+        return None
     quien = persona(f4["nombre"]) + (f" ({f4['cargo']})" if f4["cargo"] else "")
     if f4["compras"] >= MIN_COMPRA_DIRECTIVO and f4["compras"] >= f4["ventas"]:
         precio = f4["compras"] / f4["acc_c"] if f4["acc_c"] else 0
@@ -480,7 +506,7 @@ def procesar_empresa(ticker: str, info: dict, vistos: set[str], limite: datetime
                 f4 = analizar_form4(http_get(url_documento(cik, acc, xml_doc)))
             except Exception:
                 f4 = None
-            a = alerta_form4({**base, "items": []}, f4) if f4 else None
+            a = alerta_form4({**base, "items": []}, f4, cik) if f4 else None
         else:
             a = alerta_desde_plantilla(base, items)
         vistos.add(acc)  # procesado (aunque no genere alerta), para no repetirlo
