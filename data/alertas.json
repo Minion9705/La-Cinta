@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-09-22T19:02:16Z",
+ "actualizado": "2026-09-22T20:17:37Z",
  "alertas": [
+  {
+   "id": "0000796343-26-000156",
+   "ticker": "ADBE",
+   "empresa": "Adobe",
+   "form": "10-Q",
+   "fecha": "2026-09-22T16:04:02Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/0000796343-26-000156-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/adbe-20260828.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Adobe presentó su reporte trimestral (10-Q)",
+   "pri": "La empresa entregó su reporte oficial del trimestre, con todos los detalles.",
+   "int": "Formulario 10-Q: estados financieros trimestrales no auditados y análisis de la gerencia (MD&A).",
+   "porque": "Normalmente ya se conocían los números, pero puede traer detalles nuevos sobre riesgos."
+  },
   {
    "id": "0000040545-26-000059",
    "ticker": "GE",
@@ -62,7 +80,12 @@
  ],
  "vistos": [
   "0000040545-26-000059",
+  "0000059478-26-000089",
+  "0000059478-26-000091",
+  "0000796343-26-000156",
   "0001108524-26-000212",
-  "0001193125-26-397059"
+  "0001193125-26-397059",
+  "0001262388-26-000018",
+  "0001310215-26-000017"
  ]
 }
