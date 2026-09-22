@@ -1,0 +1,76 @@
+# Empresas que La Cinta vigila (una por línea). Puedes agregar o quitar símbolos.
+# Opcional: 'TICKER | Nombre' para elegir cómo se muestra el nombre.
+# Cada empresa = 1 consulta a la SEC por actualización. Con 100 empresas tarda ~15 s.
+
+# Tecnología
+AAPL
+MSFT
+NVDA
+GOOGL | Alphabet (Google)
+AMZN
+META | Meta Platforms
+TSLA
+AVGO
+ORCL
+AMD
+INTC
+CRM
+ADBE
+NFLX
+IBM
+QCOM
+CSCO
+PLTR
+UBER
+SHOP
+
+# Finanzas
+JPM | JPMorgan Chase
+BAC
+WFC
+C
+GS
+MS
+V
+MA
+AXP
+BRK-B | Berkshire Hathaway
+SCHW
+PYPL
+COIN
+
+# Salud
+UNH | UnitedHealth
+JNJ
+LLY
+PFE
+MRK
+ABBV
+TMO | Thermo Fisher
+CVS | CVS Health
+MRNA
+
+# Consumo
+WMT
+COST
+HD | Home Depot
+TGT
+NKE
+SBUX
+MCD | McDonald's
+KO | Coca-Cola
+PEP
+PG | Procter & Gamble
+DIS
+
+# Industria y energía
+XOM | ExxonMobil
+CVX
+BA
+CAT
+GE
+F
+GM
+UPS
+LMT
+DAL

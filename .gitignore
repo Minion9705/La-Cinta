@@ -1,0 +1,4 @@
+data/.company_tickers.json
+data/*.tmp
+__pycache__/
+.DS_Store
