@@ -1,0 +1,161 @@
+{
+ "actualizado": "2026-09-21T03:14:14Z",
+ "demo": true,
+ "alertas": [
+  {
+   "id": "demo-1",
+   "ticker": "MRDN",
+   "empresa": "Meridian Retail (ficticia)",
+   "form": "8-K",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "fecha": "2026-09-21T03:12:14Z",
+   "ia": true,
+   "titulo": "Meridian vendió 5,9 % más, pero recortó su pronóstico para Navidad",
+   "pri": "Le fue bien en el trimestre, pero espera vender menos de lo que había dicho para fin de año.",
+   "int": "Ingresos de $8,42 mil M (+5,9 % a/a) y BPA de $1,31 (+11 %); guía de ventas del Q4 bajada a $9,1–9,3 mil M desde $9,4–9,6 mil M.",
+   "porque": "Los inversionistas pagan por el futuro: una guía más baja suele pesar más que un buen trimestre.",
+   "url": "https://www.sec.gov/edgar/search/",
+   "doc": "https://www.sec.gov/edgar/search/",
+   "relevancia": 3,
+   "cifras": [
+    "Ingresos $8,42 mil M (+5,9 %)",
+    "BPA $1,31 (+11 %)",
+    "Guía Q4 más baja"
+   ]
+  },
+  {
+   "id": "demo-2",
+   "ticker": "HLVE",
+   "empresa": "Halvorsen Energy (ficticia)",
+   "form": "8-K",
+   "items": [
+    "5.02"
+   ],
+   "tipo": "dir",
+   "sev": "neg",
+   "fecha": "2026-09-21T03:05:14Z",
+   "ia": true,
+   "titulo": "Renuncia con efecto inmediato el director financiero de Halvorsen",
+   "pri": "El responsable del dinero de la empresa se fue de golpe y aún no hay reemplazo.",
+   "int": "Salida del CFO efectiva de inmediato, sin sucesor ni interino anunciado, a cuatro semanas del reporte del Q3.",
+   "porque": "Una salida sin aviso genera dudas sobre las cuentas; el mercado suele cobrar ese riesgo.",
+   "url": "https://www.sec.gov/edgar/search/",
+   "doc": "https://www.sec.gov/edgar/search/",
+   "relevancia": 3
+  },
+  {
+   "id": "demo-3",
+   "ticker": "BRWL",
+   "empresa": "Brightwell Pharma (ficticia)",
+   "form": "424B5",
+   "items": [],
+   "tipo": "dil",
+   "sev": "neg",
+   "fecha": "2026-09-21T02:48:14Z",
+   "ia": true,
+   "titulo": "Brightwell venderá $400 millones en acciones nuevas",
+   "pri": "La empresa va a crear más acciones para conseguir dinero. Tu pedazo de la empresa se hace un poco más pequeño.",
+   "int": "Oferta de $400 M para financiar un ensayo de fase 3; equivale a ~11 % del valor de mercado.",
+   "porque": "Más acciones en circulación = dilución para los accionistas actuales.",
+   "url": "https://www.sec.gov/edgar/search/",
+   "doc": "https://www.sec.gov/edgar/search/",
+   "relevancia": 3,
+   "cifras": [
+    "Oferta $400 M",
+    "~11 % del valor"
+   ]
+  },
+  {
+   "id": "demo-4",
+   "ticker": "KSTL",
+   "empresa": "Kestrel Aerospace (ficticia)",
+   "form": "4",
+   "items": [],
+   "tipo": "int",
+   "sev": "pos",
+   "fecha": "2026-09-21T02:27:14Z",
+   "ia": false,
+   "titulo": "Un directivo de Kestrel compró $2,1 millones en acciones",
+   "pri": "El CEO compró acciones de su propia empresa con su dinero. Suele leerse como señal de confianza.",
+   "int": "Compra en mercado abierto (código P): 24.000 acciones a ~$86,90. Firmante: CEO.",
+   "porque": "Los directivos venden por muchas razones, pero compran por una: creen que la acción vale más.",
+   "url": "https://www.sec.gov/edgar/search/",
+   "doc": "https://www.sec.gov/edgar/search/",
+   "relevancia": 3,
+   "cifras": [
+    "24.000 acciones",
+    "~$86,90 c/u"
+   ]
+  },
+  {
+   "id": "demo-5",
+   "ticker": "ORVX",
+   "empresa": "Orvex Software (ficticia)",
+   "form": "8-K",
+   "items": [
+    "8.01"
+   ],
+   "tipo": "otros",
+   "sev": "pos",
+   "fecha": "2026-09-21T01:05:14Z",
+   "ia": true,
+   "titulo": "Orvex aprobó recomprar $1.500 millones de sus acciones",
+   "pri": "La empresa usará su dinero para comprar sus propias acciones. Quedan menos en circulación.",
+   "int": "Nuevo programa de recompra de $1,5 mil M, sin fecha de vencimiento.",
+   "porque": "Menos acciones en circulación = cada una representa más de la empresa.",
+   "url": "https://www.sec.gov/edgar/search/",
+   "doc": "https://www.sec.gov/edgar/search/",
+   "relevancia": 2,
+   "cifras": [
+    "Recompra $1,5 mil M"
+   ]
+  },
+  {
+   "id": "demo-6",
+   "ticker": "TNDR",
+   "empresa": "Tundra Bancorp (ficticia)",
+   "form": "8-K",
+   "items": [
+    "8.01"
+   ],
+   "tipo": "otros",
+   "sev": "neg",
+   "fecha": "2026-09-20T22:55:14Z",
+   "ia": true,
+   "titulo": "Tundra recortó su dividendo a la mitad",
+   "pri": "El banco pagará a sus accionistas la mitad de lo que pagaba cada trimestre.",
+   "int": "Dividendo trimestral reducido de $0,40 a $0,20 por acción para reforzar capital.",
+   "porque": "Recortar el dividendo suele indicar que la empresa necesita cuidar su efectivo.",
+   "url": "https://www.sec.gov/edgar/search/",
+   "doc": "https://www.sec.gov/edgar/search/",
+   "relevancia": 3,
+   "cifras": [
+    "Dividendo $0,40 → $0,20"
+   ]
+  },
+  {
+   "id": "demo-7",
+   "ticker": "CALN",
+   "empresa": "Calloway Networks (ficticia)",
+   "form": "10-Q",
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "fecha": "2026-09-20T20:15:14Z",
+   "ia": false,
+   "titulo": "Calloway presentó su reporte trimestral (10-Q)",
+   "pri": "La empresa entregó su reporte oficial del trimestre, con todos los detalles.",
+   "int": "Formulario 10-Q: estados financieros trimestrales no auditados y análisis de la gerencia (MD&A).",
+   "porque": "Normalmente ya se conocían los números, pero puede traer detalles nuevos sobre riesgos.",
+   "url": "https://www.sec.gov/edgar/search/",
+   "doc": "https://www.sec.gov/edgar/search/",
+   "relevancia": 1
+  }
+ ],
+ "vistos": []
+}
