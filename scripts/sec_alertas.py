@@ -230,13 +230,9 @@ def nombre_bonito(nombre: str) -> str:
 
 
 def fecha_aceptacion(valor: str, respaldo: str) -> str:
-    """
-    EDGAR publica acceptanceDateTime como '2026-09-18T16:05:12.000Z'. En la práctica
-    esa hora corresponde a la hora del Este (ET) aunque diga 'Z', así que la
-    interpretamos como ET y la guardamos en UTC.
-    """
+    """EDGAR publica acceptanceDateTime en UTC, p. ej. '2026-09-22T01:31:12.000Z'."""
     try:
-        base = datetime.strptime(valor[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=ET_TZ)
+        base = datetime.strptime(valor[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
     except Exception:
         base = datetime.strptime(respaldo, "%Y-%m-%d").replace(hour=9, tzinfo=ET_TZ)
     return base.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -305,7 +301,10 @@ def num_es(v: float, dec: int = 0) -> str:
 
 
 def persona(nombre: str) -> str:
-    """'Cook Timothy D' -> 'Timothy D Cook' (formato de la SEC: apellido primero)."""
+    """'Cook Timothy D' -> 'Timothy D Cook' (formato de la SEC: apellido primero).
+    Las empresas y fondos ('Berkshire Hathaway Inc') se dejan en su orden."""
+    if re.search(r"\b(inc|corp|corporation|co|llc|lp|l\.p|ltd|plc|trust|fund|holdings|group|partners|capital|management|bank|n\.a)\b\.?", nombre, re.I):
+        return nombre.title() if nombre.isupper() else nombre
     partes = nombre.split()
     if len(partes) >= 2:
         return " ".join(partes[1:] + partes[:1]).title()
