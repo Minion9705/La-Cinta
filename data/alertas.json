@@ -1,5 +1,45 @@
 {
- "actualizado": null,
- "alertas": [],
- "vistos": []
+ "actualizado": "2026-09-22T04:32:06Z",
+ "alertas": [
+  {
+   "id": "0001193125-26-397059",
+   "ticker": "BRK-B",
+   "empresa": "Berkshire Hathaway",
+   "form": "4",
+   "fecha": "2026-09-22T01:31:10Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/0001193125-26-397059-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/xslF345X06/ownership.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 3,
+   "titulo": "Berkshire Hathaway compró $212,4 millones en acciones de Lennar (LEN, LEN.B)",
+   "pri": "Berkshire Hathaway invirtió más dinero en otra empresa, Lennar, y aumentó su participación en ella.",
+   "int": "Compra en mercado abierto (código P): 2.743.529 acciones de Lennar (LEN, LEN.B) a ~$77,42. Berkshire Hathaway reporta como accionista de más del 10 %.",
+   "porque": "Muestra en qué está poniendo su dinero Berkshire Hathaway; para los accionistas de Lennar suele leerse como un voto de confianza."
+  },
+  {
+   "id": "0001108524-26-000212",
+   "ticker": "CRM",
+   "empresa": "Salesforce",
+   "form": "4",
+   "fecha": "2026-09-21T22:18:57Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000212/0001108524-26-000212-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000212/xslF345X06/form4.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "int",
+   "sev": "pos",
+   "relevancia": 2,
+   "titulo": "Un directivo de Salesforce compró $999.451 en acciones",
+   "pri": "David Blair Kirk (Consejero) compró acciones de su propia empresa con su dinero. Suele leerse como señal de confianza.",
+   "int": "Compra en mercado abierto (código P): 4.176 acciones a ~$239,33. Firmante: David Blair Kirk (Consejero).",
+   "porque": "Los directivos venden por muchas razones, pero compran por una: creen que la acción vale más."
+  }
+ ],
+ "vistos": [
+  "0001108524-26-000212",
+  "0001193125-26-397059"
+ ]
 }
