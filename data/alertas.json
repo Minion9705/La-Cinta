@@ -1,6 +1,44 @@
 {
- "actualizado": "2026-09-23T20:01:12Z",
+ "actualizado": "2026-09-23T20:19:59Z",
  "alertas": [
+  {
+   "id": "0001679788-26-000109",
+   "ticker": "COIN",
+   "empresa": "Coinbase Global",
+   "form": "4",
+   "fecha": "2026-09-23T16:18:58Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000109/0001679788-26-000109-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000109/xslF345X06/wk-form4_1790194735.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "int",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Un directivo de Coinbase Global vendió $8,0 millones en acciones",
+   "pri": "Alesia J Haas (Chief Financial Officer) vendió acciones de la empresa. Es común (impuestos, planes programados), así que por sí sola no es mala señal.",
+   "int": "Venta en mercado abierto (código S): 39.030 acciones a ~$205,24. Revisa si es un plan 10b5-1.",
+   "porque": "Las ventas de directivos son frecuentes; importan más si varios venden a la vez o si no hay plan programado."
+  },
+  {
+   "id": "0001403161-26-000121",
+   "ticker": "V",
+   "empresa": "Visa",
+   "form": "8-K",
+   "fecha": "2026-09-23T16:06:31Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000121/0001403161-26-000121-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000121/v-20260918.htm",
+   "ia": false,
+   "items": [
+    "8.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Visa comunicó un anuncio a sus inversionistas",
+   "pri": "La empresa comunicó algo que considera importante (puede ser un dividendo, una recompra u otro anuncio).",
+   "int": "Ítem 8.01: otros eventos. Suele incluir dividendos, recompras o actualizaciones relevantes.",
+   "porque": "Depende del contenido; revisa el documento."
+  },
   {
    "id": "0000063908-26-000076",
    "ticker": "MCD",
@@ -133,6 +171,9 @@
   "0001193125-26-397059",
   "0001199039-26-000016",
   "0001262388-26-000018",
-  "0001310215-26-000017"
+  "0001310215-26-000017",
+  "0001403161-26-000121",
+  "0001679788-26-000108",
+  "0001679788-26-000109"
  ]
 }
