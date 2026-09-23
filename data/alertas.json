@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-09-23T11:18:58Z",
+ "actualizado": "2026-09-23T12:24:19Z",
  "alertas": [
+  {
+   "id": "0000063908-26-000076",
+   "ticker": "MCD",
+   "empresa": "McDonald's",
+   "form": "8-K",
+   "fecha": "2026-09-23T08:01:21Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000076/0000063908-26-000076-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000076/mcd-20260923.htm",
+   "ia": false,
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "McDonald's compartió una presentación para inversionistas",
+   "pri": "La empresa compartió una presentación o comunicado para inversionistas.",
+   "int": "Ítem 7.01: divulgación bajo Regulación FD (presentaciones, comunicados).",
+   "porque": "A veces incluye actualizaciones de guía; vale la pena revisarlo."
+  },
   {
    "id": "0001199039-26-000016",
    "ticker": "NVDA",
@@ -100,6 +121,7 @@
   "0000040545-26-000059",
   "0000059478-26-000089",
   "0000059478-26-000091",
+  "0000063908-26-000076",
   "0000354950-26-000172",
   "0000354950-26-000173",
   "0000354950-26-000174",
