@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-09-23T20:44:10Z",
+ "actualizado": "2026-09-23T21:01:22Z",
  "alertas": [
+  {
+   "id": "0001696841-26-000014",
+   "ticker": "NVDA",
+   "empresa": "Nvidia",
+   "form": "4",
+   "fecha": "2026-09-23T16:56:28Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000014/0001696841-26-000014-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000014/xslF345X06/wk-form4_1790196985.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "int",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Un directivo de Nvidia vendió $6,8 millones en acciones",
+   "pri": "Timothy S. Teter (EVP, General Counsel and Sec) vendió acciones de la empresa. Es común (impuestos, planes programados), así que por sí sola no es mala señal.",
+   "int": "Venta en mercado abierto (código S): 30.460 acciones a ~$222,80. Revisa si es un plan 10b5-1.",
+   "porque": "Las ventas de directivos son frecuentes; importan más si varios venden a la vez o si no hay plan programado."
+  },
   {
    "id": "0000072971-26-000308",
    "ticker": "WFC",
@@ -196,6 +214,7 @@
   "0001310215-26-000017",
   "0001403161-26-000121",
   "0001679788-26-000108",
-  "0001679788-26-000109"
+  "0001679788-26-000109",
+  "0001696841-26-000014"
  ]
 }
