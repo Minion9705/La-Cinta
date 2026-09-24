@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-09-24T10:19:14Z",
+ "actualizado": "2026-09-24T11:01:11Z",
  "alertas": [
+  {
+   "id": "0000829224-26-000145",
+   "ticker": "SBUX",
+   "empresa": "Starbucks",
+   "form": "8-K",
+   "fecha": "2026-09-24T06:55:27Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000145/0000829224-26-000145-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000145/sbux-20260922.htm",
+   "ia": false,
+   "items": [
+    "2.05",
+    "7.01"
+   ],
+   "tipo": "otros",
+   "sev": "mix",
+   "relevancia": 2,
+   "titulo": "Starbucks anunció una reestructuración",
+   "pri": "La empresa va a recortar costos: cierres, despidos o salida de algún negocio.",
+   "int": "Ítem 2.05: costos asociados a actividades de salida o disposición (reestructuración).",
+   "porque": "Cuesta dinero hoy, pero el mercado a veces lo premia si mejora las ganancias futuras."
+  },
   {
    "id": "0000950103-26-014403",
    "ticker": "META",
@@ -225,6 +246,7 @@
   "0000354950-26-000177",
   "0000796343-26-000156",
   "0000804328-26-000095",
+  "0000829224-26-000145",
   "0000950103-26-014402",
   "0000950103-26-014403",
   "0001108524-26-000212",
