@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-09-25T21:18:45Z",
+ "actualizado": "2026-09-25T21:30:04Z",
  "alertas": [
+  {
+   "id": "0001193125-26-402986",
+   "ticker": "XOM",
+   "empresa": "ExxonMobil",
+   "form": "8-K",
+   "fecha": "2026-09-25T17:20:49Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000119312526402986/0001193125-26-402986-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/2115436/000119312526402986/d15072d8k.htm",
+   "ia": false,
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "ExxonMobil comunicó un anuncio a sus inversionistas",
+   "pri": "La empresa comunicó algo que considera importante (puede ser un dividendo, una recompra u otro anuncio).",
+   "int": "Ítem 8.01: otros eventos. Suele incluir dividendos, recompras o actualizaciones relevantes.",
+   "porque": "Depende del contenido; revisa el documento."
+  },
   {
    "id": "0001104659-26-110983",
    "ticker": "AVGO",
@@ -317,6 +338,7 @@
   "0001193125-26-401022",
   "0001193125-26-401071",
   "0001193125-26-401950",
+  "0001193125-26-402986",
   "0001199039-26-000016",
   "0001262388-26-000018",
   "0001310215-26-000017",
