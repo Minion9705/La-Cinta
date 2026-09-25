@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-09-25T19:44:11Z",
+ "actualizado": "2026-09-25T20:17:41Z",
  "alertas": [
+  {
+   "id": "0001104659-26-110983",
+   "ticker": "AVGO",
+   "empresa": "Broadcom",
+   "form": "4",
+   "fecha": "2026-09-25T16:15:18Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/0001104659-26-110983-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "int",
+   "sev": "neu",
+   "relevancia": 2,
+   "titulo": "Un directivo de Broadcom vendió $250,0 millones en acciones",
+   "pri": "Henry Samueli (Consejero) vendió acciones de la empresa. Es común (impuestos, planes programados), así que por sí sola no es mala señal.",
+   "int": "Venta en mercado abierto (código S): 702.190 acciones a ~$356,04. Revisa si es un plan 10b5-1.",
+   "porque": "Las ventas de directivos son frecuentes; importan más si varios venden a la vez o si no hay plan programado."
+  },
   {
    "id": "0000909832-26-000084",
    "ticker": "COST",
@@ -287,6 +305,7 @@
   "0000909832-26-000084",
   "0000950103-26-014402",
   "0000950103-26-014403",
+  "0001104659-26-110983",
   "0001108524-26-000212",
   "0001108524-26-000214",
   "0001108524-26-000217",
