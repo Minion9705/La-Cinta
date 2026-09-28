@@ -1,6 +1,26 @@
 {
- "actualizado": "2026-09-28T19:03:08Z",
+ "actualizado": "2026-09-28T20:18:42Z",
  "alertas": [
+  {
+   "id": "0000002488-26-000182",
+   "ticker": "AMD",
+   "empresa": "Advanced Micro Devices",
+   "form": "8-K",
+   "fecha": "2026-09-28T16:16:47Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/0000002488-26-000182-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm",
+   "ia": false,
+   "items": [
+    "3.02"
+   ],
+   "tipo": "dil",
+   "sev": "neg",
+   "relevancia": 3,
+   "titulo": "Advanced Micro Devices vendió acciones nuevas fuera de bolsa",
+   "pri": "La empresa creó y vendió acciones nuevas. Cada acción existente representa un pedazo un poco más pequeño.",
+   "int": "Ítem 3.02: venta no registrada de valores de capital (colocación privada). Posible dilución.",
+   "porque": "Más acciones en circulación = dilución para los accionistas actuales."
+  },
   {
    "id": "0001193125-26-403089",
    "ticker": "BRK-B",
@@ -311,6 +331,7 @@
   }
  ],
  "vistos": [
+  "0000002488-26-000182",
   "0000037996-26-000182",
   "0000040545-26-000059",
   "0000059478-26-000089",
