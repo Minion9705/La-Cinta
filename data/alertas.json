@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-09-28T23:40:08Z",
+ "actualizado": "2026-09-28T23:48:55Z",
  "alertas": [
+  {
+   "id": "0000950103-26-014647",
+   "ticker": "META",
+   "empresa": "Meta Platforms",
+   "form": "4",
+   "fecha": "2026-09-28T19:47:03Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014647/0000950103-26-014647-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014647/xslF345X06/ownership.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "int",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Un directivo de Meta Platforms vendió $21,4 millones en acciones",
+   "pri": "Mark Zuckerberg (COB and CEO) vendió acciones de la empresa. Es común (impuestos, planes programados), así que por sí sola no es mala señal.",
+   "int": "Venta en mercado abierto (código S): 27.474 acciones a ~$777,44. Revisa si es un plan 10b5-1.",
+   "porque": "Las ventas de directivos son frecuentes; importan más si varios venden a la vez o si no hay plan programado."
+  },
   {
    "id": "0000002488-26-000182",
    "ticker": "AMD",
@@ -366,6 +384,7 @@
   "0000909832-26-000084",
   "0000950103-26-014402",
   "0000950103-26-014403",
+  "0000950103-26-014647",
   "0001104659-26-110983",
   "0001104659-26-111312",
   "0001104659-26-111313",
