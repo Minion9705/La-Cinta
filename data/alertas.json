@@ -1,6 +1,29 @@
 {
- "actualizado": "2026-09-29T20:21:14Z",
+ "actualizado": "2026-09-29T20:48:32Z",
  "alertas": [
+  {
+   "id": "0001628280-26-063820",
+   "ticker": "TSLA",
+   "empresa": "Tesla",
+   "form": "8-K",
+   "fecha": "2026-09-29T16:38:50Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026063820/0001628280-26-063820-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026063820/tsla-20260929.htm",
+   "ia": false,
+   "items": [
+    "1.01",
+    "1.02",
+    "2.03",
+    "9.01"
+   ],
+   "tipo": "otros",
+   "sev": "neg",
+   "relevancia": 3,
+   "titulo": "Tesla terminó un acuerdo importante",
+   "pri": "Se canceló un contrato importante de la empresa.",
+   "int": "Ítem 1.02: terminación de un acuerdo material definitivo.",
+   "porque": "Perder un contrato relevante puede afectar ingresos futuros."
+  },
   {
    "id": "0000950103-26-014647",
    "ticker": "META",
@@ -424,6 +447,7 @@
   "0001561563-26-000023",
   "0001580693-26-000002",
   "0001628280-26-063531",
+  "0001628280-26-063820",
   "0001679788-26-000108",
   "0001679788-26-000109",
   "0001696841-26-000014",
