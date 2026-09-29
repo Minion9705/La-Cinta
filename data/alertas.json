@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-09-29T20:48:32Z",
+ "actualizado": "2026-09-29T21:19:43Z",
  "alertas": [
+  {
+   "id": "0001728451-26-000004",
+   "ticker": "BRK-B",
+   "empresa": "Berkshire Hathaway",
+   "form": "4",
+   "fecha": "2026-09-29T17:16:08Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000004/0001728451-26-000004-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000004/xslF345X06/primary_doc.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "int",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Un directivo de Berkshire Hathaway vendió $20,0 millones en acciones",
+   "pri": "Ajit Jain (Vice Chairman) vendió acciones de la empresa. Es común (impuestos, planes programados), así que por sí sola no es mala señal.",
+   "int": "Venta en mercado abierto (código S): 39.700 acciones a ~$503,09. Revisa si es un plan 10b5-1.",
+   "porque": "Las ventas de directivos son frecuentes; importan más si varios venden a la vez o si no hay plan programado."
+  },
   {
    "id": "0001628280-26-063820",
    "ticker": "TSLA",
@@ -451,6 +469,7 @@
   "0001679788-26-000108",
   "0001679788-26-000109",
   "0001696841-26-000014",
-  "0001710268-26-000003"
+  "0001710268-26-000003",
+  "0001728451-26-000004"
  ]
 }
