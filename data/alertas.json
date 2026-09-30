@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-09-30T23:39:58Z",
+ "actualizado": "2026-09-30T23:56:21Z",
  "alertas": [
+  {
+   "id": "0001193125-26-409451",
+   "ticker": "BRK-B",
+   "empresa": "Berkshire Hathaway",
+   "form": "4",
+   "fecha": "2026-09-30T19:52:20Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/0001193125-26-409451-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/xslF345X06/ownership.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 2,
+   "titulo": "Berkshire Hathaway compró $53,9 millones en acciones de Lennar (LEN)",
+   "pri": "Berkshire Hathaway invirtió más dinero en otra empresa, Lennar, y aumentó su participación en ella.",
+   "int": "Compra en mercado abierto (código P): 660.410 acciones de Lennar (LEN) a ~$81,59. Berkshire Hathaway reporta como accionista de más del 10 %.",
+   "porque": "Muestra en qué está poniendo su dinero Berkshire Hathaway; para los accionistas de Lennar suele leerse como un voto de confianza."
+  },
   {
    "id": "0001193125-26-408289",
    "ticker": "MRNA",
@@ -482,6 +500,7 @@
   "0001193125-26-408016",
   "0001193125-26-408019",
   "0001193125-26-408289",
+  "0001193125-26-409451",
   "0001199039-26-000016",
   "0001214212-26-000002",
   "0001225208-26-007984",
