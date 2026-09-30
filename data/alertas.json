@@ -1,6 +1,28 @@
 {
- "actualizado": "2026-09-30T10:37:57Z",
+ "actualizado": "2026-09-30T11:19:28Z",
  "alertas": [
+  {
+   "id": "0001193125-26-408289",
+   "ticker": "MRNA",
+   "empresa": "Moderna",
+   "form": "8-K",
+   "fecha": "2026-09-30T07:15:20Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/0001193125-26-408289-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526408289/d18337d8k.htm",
+   "ia": false,
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "tipo": "dir",
+   "sev": "mix",
+   "relevancia": 2,
+   "titulo": "Cambio en la dirección de Moderna",
+   "pri": "Entró o salió alguien importante de la dirección o de la junta de la empresa.",
+   "int": "Ítem 5.02: salida/nombramiento de directivos o consejeros, o cambios en su compensación.",
+   "porque": "Una salida repentina (sobre todo del CEO o del director financiero) suele preocupar al mercado."
+  },
   {
    "id": "0001728451-26-000004",
    "ticker": "BRK-B",
@@ -456,6 +478,7 @@
   "0001193125-26-408014",
   "0001193125-26-408016",
   "0001193125-26-408019",
+  "0001193125-26-408289",
   "0001199039-26-000016",
   "0001214212-26-000002",
   "0001225208-26-007984",
