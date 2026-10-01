@@ -1,6 +1,50 @@
 {
- "actualizado": "2026-10-01T19:22:10Z",
+ "actualizado": "2026-10-01T20:21:12Z",
  "alertas": [
+  {
+   "id": "0000051143-26-000086",
+   "ticker": "IBM",
+   "empresa": "International Business Machines",
+   "form": "8-K",
+   "fecha": "2026-10-01T16:18:19Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000086/0000051143-26-000086-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000086/ibm-20261001.htm",
+   "ia": false,
+   "items": [
+    "5.02",
+    "5.03",
+    "9.01"
+   ],
+   "tipo": "dir",
+   "sev": "mix",
+   "relevancia": 2,
+   "titulo": "Cambio en la dirección de International Business Machines",
+   "pri": "Entró o salió alguien importante de la dirección o de la junta de la empresa.",
+   "int": "Ítem 5.02: salida/nombramiento de directivos o consejeros, o cambios en su compensación.",
+   "porque": "Una salida repentina (sobre todo del CEO o del director financiero) suele preocupar al mercado."
+  },
+  {
+   "id": "0000320187-26-000184",
+   "ticker": "NKE",
+   "empresa": "Nike",
+   "form": "8-K",
+   "fecha": "2026-10-01T16:15:15Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000184/0000320187-26-000184-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000184/nke-20261001.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "2.05",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Nike publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0001193125-26-409451",
    "ticker": "BRK-B",
@@ -434,6 +478,7 @@
   "0000004962-26-000357",
   "0000037996-26-000182",
   "0000040545-26-000059",
+  "0000051143-26-000086",
   "0000059478-26-000089",
   "0000059478-26-000091",
   "0000063908-26-000076",
@@ -441,6 +486,7 @@
   "0000310158-26-000230",
   "0000310158-26-000232",
   "0000310158-26-000234",
+  "0000320187-26-000184",
   "0000354950-26-000172",
   "0000354950-26-000173",
   "0000354950-26-000174",
@@ -492,6 +538,7 @@
   "0001140361-26-038026",
   "0001140361-26-038027",
   "0001140361-26-038028",
+  "0001183474-26-000005",
   "0001193125-26-397059",
   "0001193125-26-400093",
   "0001193125-26-401022",
@@ -507,6 +554,7 @@
   "0001193125-26-408019",
   "0001193125-26-408289",
   "0001193125-26-409451",
+  "0001196985-26-000004",
   "0001199039-26-000016",
   "0001214212-26-000002",
   "0001225208-26-007984",
@@ -516,6 +564,10 @@
   "0001225208-26-007988",
   "0001225208-26-007989",
   "0001225208-26-008044",
+  "0001225208-26-008050",
+  "0001225208-26-008051",
+  "0001225208-26-008052",
+  "0001225208-26-008053",
   "0001262388-26-000018",
   "0001310215-26-000017",
   "0001333760-26-000003",
@@ -534,6 +586,8 @@
   "0001679788-26-000109",
   "0001696841-26-000014",
   "0001710268-26-000003",
-  "0001728451-26-000004"
+  "0001728451-26-000004",
+  "0001738987-26-000004",
+  "0001804183-26-000014"
  ]
 }
