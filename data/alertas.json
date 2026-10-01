@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-10-01T21:37:28Z",
+ "actualizado": "2026-10-01T21:50:00Z",
  "alertas": [
+  {
+   "id": "0001341439-26-000099",
+   "ticker": "ORCL",
+   "empresa": "Oracle",
+   "form": "4",
+   "fecha": "2026-10-01T17:42:53Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000099/0001341439-26-000099-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000099/xslF345X06/form4.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "int",
+   "sev": "pos",
+   "relevancia": 3,
+   "titulo": "Un directivo de Oracle compró $3,5 millones en acciones",
+   "pri": "Stephen H Rusckowski (Consejero) compró acciones de su propia empresa con su dinero. Suele leerse como señal de confianza.",
+   "int": "Compra en mercado abierto (código P): 25.000 acciones a ~$139,35. Firmante: Stephen H Rusckowski (Consejero).",
+   "porque": "Los directivos venden por muchas razones, pero compran por una: creen que la acción vale más."
+  },
   {
    "id": "0000051143-26-000086",
    "ticker": "IBM",
@@ -582,6 +600,7 @@
   "0001341439-26-000092",
   "0001341439-26-000094",
   "0001341439-26-000096",
+  "0001341439-26-000099",
   "0001403161-26-000121",
   "0001453149-26-000008",
   "0001561563-26-000023",
