@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-02T12:47:51Z",
+ "actualizado": "2026-10-02T13:22:16Z",
  "alertas": [
+  {
+   "id": "0000037996-26-000184",
+   "ticker": "F",
+   "empresa": "Ford Motor",
+   "form": "8-K",
+   "fecha": "2026-10-02T13:16:49Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000184/0000037996-26-000184-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000184/f-20261002.htm",
+   "ia": false,
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Ford Motor comunicó un anuncio a sus inversionistas",
+   "pri": "La empresa comunicó algo que considera importante (puede ser un dividendo, una recompra u otro anuncio).",
+   "int": "Ítem 8.01: otros eventos. Suele incluir dividendos, recompras o actualizaciones relevantes.",
+   "porque": "Depende del contenido; revisa el documento."
+  },
+  {
+   "id": "0001628280-26-064366",
+   "ticker": "TSLA",
+   "empresa": "Tesla",
+   "form": "8-K",
+   "fecha": "2026-10-02T13:04:26Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/0001628280-26-064366-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/tsla-20261002.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Tesla publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0001341439-26-000099",
    "ticker": "ORCL",
@@ -495,6 +538,7 @@
   "0000002488-26-000182",
   "0000004962-26-000357",
   "0000037996-26-000182",
+  "0000037996-26-000184",
   "0000040545-26-000059",
   "0000051143-26-000086",
   "0000059478-26-000089",
@@ -608,6 +652,7 @@
   "0001580693-26-000002",
   "0001628280-26-063531",
   "0001628280-26-063820",
+  "0001628280-26-064366",
   "0001628797-26-000004",
   "0001630253-26-000005",
   "0001679788-26-000108",
