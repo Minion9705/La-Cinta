@@ -1,6 +1,26 @@
 {
- "actualizado": "2026-10-05T12:48:25Z",
+ "actualizado": "2026-10-05T13:04:36Z",
  "alertas": [
+  {
+   "id": "0000093410-26-000188",
+   "ticker": "CVX",
+   "empresa": "Chevron",
+   "form": "8-K",
+   "fecha": "2026-10-05T13:01:20Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000188/0000093410-26-000188-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000188/cvx-20260930.htm",
+   "ia": false,
+   "items": [
+    "5.02"
+   ],
+   "tipo": "dir",
+   "sev": "mix",
+   "relevancia": 2,
+   "titulo": "Cambio en la dirección de Chevron",
+   "pri": "Entró o salió alguien importante de la dirección o de la junta de la empresa.",
+   "int": "Ítem 5.02: salida/nombramiento de directivos o consejeros, o cambios en su compensación.",
+   "porque": "Una salida repentina (sobre todo del CEO o del director financiero) suele preocupar al mercado."
+  },
   {
    "id": "0000320187-26-000193",
    "ticker": "NKE",
@@ -591,6 +611,7 @@
   "0000059478-26-000091",
   "0000063908-26-000076",
   "0000072971-26-000308",
+  "0000093410-26-000188",
   "0000104169-26-000159",
   "0000104169-26-000160",
   "0000104169-26-000161",
