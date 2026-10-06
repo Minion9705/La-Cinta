@@ -1,6 +1,28 @@
 {
- "actualizado": "2026-10-06T20:39:10Z",
+ "actualizado": "2026-10-06T21:19:29Z",
  "alertas": [
+  {
+   "id": "0000093410-26-000192",
+   "ticker": "CVX",
+   "empresa": "Chevron",
+   "form": "8-K",
+   "fecha": "2026-10-06T21:16:59Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000192/0000093410-26-000192-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000192/cvx-20261006.htm",
+   "ia": false,
+   "items": [
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Chevron comunicó un anuncio a sus inversionistas",
+   "pri": "La empresa comunicó algo que considera importante (puede ser un dividendo, una recompra u otro anuncio).",
+   "int": "Ítem 8.01: otros eventos. Suele incluir dividendos, recompras o actualizaciones relevantes.",
+   "porque": "Depende del contenido; revisa el documento."
+  },
   {
    "id": "0001193125-26-414744",
    "ticker": "BRK-B",
@@ -724,6 +746,7 @@
   "0000080424-26-000199",
   "0000080424-26-000200",
   "0000093410-26-000188",
+  "0000093410-26-000192",
   "0000104169-26-000159",
   "0000104169-26-000160",
   "0000104169-26-000161",
