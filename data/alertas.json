@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-10-07T09:58:23Z",
+ "actualizado": "2026-10-07T10:09:59Z",
  "alertas": [
+  {
+   "id": "0000909832-26-000093",
+   "ticker": "COST",
+   "empresa": "Costco Wholesale",
+   "form": "10-K",
+   "fecha": "2026-10-07T01:13:15Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Costco Wholesale presentó su reporte anual (10-K)",
+   "pri": "La empresa entregó su reporte anual completo.",
+   "int": "Formulario 10-K: estados financieros auditados, factores de riesgo y MD&A.",
+   "porque": "Es el documento más completo sobre la empresa; útil para revisar riesgos nuevos."
+  },
   {
    "id": "0000093410-26-000192",
    "ticker": "CVX",
@@ -794,6 +812,7 @@
   "0000909832-26-000084",
   "0000909832-26-000088",
   "0000909832-26-000090",
+  "0000909832-26-000093",
   "0000950103-26-014402",
   "0000950103-26-014403",
   "0000950103-26-014647",
