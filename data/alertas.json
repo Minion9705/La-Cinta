@@ -1,6 +1,45 @@
 {
- "actualizado": "2026-10-08T08:58:47Z",
+ "actualizado": "2026-10-08T10:04:43Z",
  "alertas": [
+  {
+   "id": "0000077476-26-000050",
+   "ticker": "PEP",
+   "empresa": "Pepsico",
+   "form": "8-K",
+   "fecha": "2026-10-07T21:57:44Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000050/0000077476-26-000050-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000050/pep-20261008.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Pepsico publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
+  {
+   "id": "0000077476-26-000048",
+   "ticker": "PEP",
+   "empresa": "Pepsico",
+   "form": "10-Q",
+   "fecha": "2026-10-07T21:52:53Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000048/0000077476-26-000048-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000048/pep-20260905.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Pepsico presentó su reporte trimestral (10-Q)",
+   "pri": "La empresa entregó su reporte oficial del trimestre, con todos los detalles.",
+   "int": "Formulario 10-Q: estados financieros trimestrales no auditados y análisis de la gerencia (MD&A).",
+   "porque": "Normalmente ya se conocían los números, pero puede traer detalles nuevos sobre riesgos."
+  },
   {
    "id": "0000909832-26-000093",
    "ticker": "COST",
@@ -748,6 +787,8 @@
   "0000072971-26-000312",
   "0000072971-26-000313",
   "0000072971-26-000315",
+  "0000077476-26-000048",
+  "0000077476-26-000050",
   "0000080424-26-000186",
   "0000080424-26-000187",
   "0000080424-26-000188",
