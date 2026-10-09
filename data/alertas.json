@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-09T10:23:14Z",
+ "actualizado": "2026-10-09T10:40:03Z",
  "alertas": [
+  {
+   "id": "0000027904-26-000035",
+   "ticker": "DAL",
+   "empresa": "Delta Air Lines",
+   "form": "8-K",
+   "fecha": "2026-10-09T10:30:47Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/27904/000002790426000035/0000027904-26-000035-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/27904/000002790426000035/dal-20261009.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Delta Air Lines publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0000004962-26-000376",
    "ticker": "AXP",
@@ -796,6 +817,7 @@
   "0000004962-26-000373",
   "0000004962-26-000374",
   "0000004962-26-000376",
+  "0000027904-26-000035",
   "0000037996-26-000182",
   "0000037996-26-000184",
   "0000040545-26-000059",
