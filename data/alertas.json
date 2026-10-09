@@ -1,6 +1,26 @@
 {
- "actualizado": "2026-10-09T19:57:04Z",
+ "actualizado": "2026-10-09T20:20:09Z",
  "alertas": [
+  {
+   "id": "0000858877-26-000156",
+   "ticker": "CSCO",
+   "empresa": "Cisco Systems",
+   "form": "8-K",
+   "fecha": "2026-10-09T20:08:49Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000156/0000858877-26-000156-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000156/csco-20261007.htm",
+   "ia": false,
+   "items": [
+    "5.02"
+   ],
+   "tipo": "dir",
+   "sev": "mix",
+   "relevancia": 2,
+   "titulo": "Cambio en la dirección de Cisco Systems",
+   "pri": "Entró o salió alguien importante de la dirección o de la junta de la empresa.",
+   "int": "Ítem 5.02: salida/nombramiento de directivos o consejeros, o cambios en su compensación.",
+   "porque": "Una salida repentina (sobre todo del CEO o del director financiero) suele preocupar al mercado."
+  },
   {
    "id": "0000027904-26-000035",
    "ticker": "DAL",
@@ -894,6 +914,7 @@
   "0000804328-26-000099",
   "0000829224-26-000145",
   "0000829224-26-000147",
+  "0000858877-26-000156",
   "0000909832-26-000084",
   "0000909832-26-000088",
   "0000909832-26-000090",
