@@ -1,6 +1,26 @@
 {
- "actualizado": "2026-10-13T15:29:18Z",
+ "actualizado": "2026-10-13T16:42:54Z",
  "alertas": [
+  {
+   "id": "0000310158-26-000237",
+   "ticker": "MRK",
+   "empresa": "Merck",
+   "form": "8-K",
+   "fecha": "2026-10-13T16:36:57Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000237/0000310158-26-000237-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000237/mrk-20261009.htm",
+   "ia": false,
+   "items": [
+    "5.02"
+   ],
+   "tipo": "dir",
+   "sev": "mix",
+   "relevancia": 2,
+   "titulo": "Cambio en la dirección de Merck",
+   "pri": "Entró o salió alguien importante de la dirección o de la junta de la empresa.",
+   "int": "Ítem 5.02: salida/nombramiento de directivos o consejeros, o cambios en su compensación.",
+   "porque": "Una salida repentina (sobre todo del CEO o del director financiero) suele preocupar al mercado."
+  },
   {
    "id": "0001104659-26-115323",
    "ticker": "C",
@@ -1067,6 +1087,7 @@
   "0000310158-26-000230",
   "0000310158-26-000232",
   "0000310158-26-000234",
+  "0000310158-26-000237",
   "0000320187-26-000184",
   "0000320187-26-000193",
   "0000354950-26-000172",
