@@ -1,6 +1,28 @@
 {
- "actualizado": "2026-10-13T10:42:53Z",
+ "actualizado": "2026-10-13T11:41:18Z",
  "alertas": [
+  {
+   "id": "0000886982-26-000529",
+   "ticker": "GS",
+   "empresa": "Goldman Sachs Group",
+   "form": "8-K",
+   "fecha": "2026-10-13T11:32:56Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/0000886982-26-000529-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/gs-20261013.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Goldman Sachs Group publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0001628280-26-065582",
    "ticker": "JPM",
@@ -1000,6 +1022,7 @@
   "0000829224-26-000145",
   "0000829224-26-000147",
   "0000858877-26-000156",
+  "0000886982-26-000529",
   "0000909832-26-000084",
   "0000909832-26-000088",
   "0000909832-26-000090",
