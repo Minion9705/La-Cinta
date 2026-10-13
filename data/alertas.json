@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-13T09:34:37Z",
+ "actualizado": "2026-10-13T10:24:17Z",
  "alertas": [
+  {
+   "id": "0000731766-26-000255",
+   "ticker": "UNH",
+   "empresa": "UnitedHealth",
+   "form": "8-K",
+   "fecha": "2026-10-13T10:14:45Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000255/0000731766-26-000255-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000255/unh-20261013.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "UnitedHealth publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0000027904-26-000038",
    "ticker": "DAL",
@@ -925,6 +946,7 @@
   "0000731766-26-000251",
   "0000731766-26-000252",
   "0000731766-26-000253",
+  "0000731766-26-000255",
   "0000796343-26-000156",
   "0000804328-26-000095",
   "0000804328-26-000096",
