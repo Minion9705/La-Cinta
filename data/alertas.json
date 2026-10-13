@@ -1,6 +1,48 @@
 {
- "actualizado": "2026-10-13T13:57:11Z",
+ "actualizado": "2026-10-13T14:11:53Z",
  "alertas": [
+  {
+   "id": "0001104659-26-115323",
+   "ticker": "C",
+   "empresa": "Citigroup",
+   "form": "8-K",
+   "fecha": "2026-10-13T14:09:22Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/0001104659-26-115323-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-20261013x8k.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Citigroup publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
+  {
+   "id": "0000080424-26-000214",
+   "ticker": "PG",
+   "empresa": "Procter & Gamble",
+   "form": "8-K",
+   "fecha": "2026-10-13T14:01:56Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000214/0000080424-26-000214-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000214/pg-20261013.htm",
+   "ia": false,
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Procter & Gamble compartió una presentación para inversionistas",
+   "pri": "La empresa compartió una presentación o comunicado para inversionistas.",
+   "int": "Ítem 7.01: divulgación bajo Regulación FD (presentaciones, comunicados).",
+   "porque": "A veces incluye actualizaciones de guía; vale la pena revisarlo."
+  },
   {
    "id": "0001628280-26-065616",
    "ticker": "JPM",
@@ -1015,6 +1057,7 @@
   "0000080424-26-000198",
   "0000080424-26-000199",
   "0000080424-26-000200",
+  "0000080424-26-000214",
   "0000093410-26-000188",
   "0000093410-26-000192",
   "0000104169-26-000159",
@@ -1092,6 +1135,7 @@
   "0001104659-26-112891",
   "0001104659-26-112893",
   "0001104659-26-113405",
+  "0001104659-26-115323",
   "0001108524-26-000212",
   "0001108524-26-000214",
   "0001108524-26-000217",
