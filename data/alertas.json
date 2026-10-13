@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-13T11:41:18Z",
+ "actualizado": "2026-10-13T12:17:15Z",
  "alertas": [
+  {
+   "id": "0000200406-26-000189",
+   "ticker": "JNJ",
+   "empresa": "Johnson & Johnson",
+   "form": "8-K",
+   "fecha": "2026-10-13T12:12:35Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/0000200406-26-000189-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000189/jnj-20261013.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Johnson & Johnson publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0000886982-26-000529",
    "ticker": "GS",
@@ -978,6 +999,7 @@
   "0000104169-26-000159",
   "0000104169-26-000160",
   "0000104169-26-000161",
+  "0000200406-26-000189",
   "0000310158-26-000230",
   "0000310158-26-000232",
   "0000310158-26-000234",
