@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-14T11:11:46Z",
+ "actualizado": "2026-10-14T11:44:48Z",
  "alertas": [
+  {
+   "id": "0000895421-26-000288",
+   "ticker": "MS",
+   "empresa": "Morgan Stanley",
+   "form": "8-K",
+   "fecha": "2026-10-14T11:39:21Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/0000895421-26-000288-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/ms-20261014.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Morgan Stanley publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0000070858-26-000481",
    "ticker": "BAC",
@@ -1156,6 +1177,7 @@
   "0000858877-26-000162",
   "0000858877-26-000163",
   "0000886982-26-000529",
+  "0000895421-26-000288",
   "0000909832-26-000084",
   "0000909832-26-000088",
   "0000909832-26-000090",
