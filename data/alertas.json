@@ -1,6 +1,28 @@
 {
- "actualizado": "2026-10-14T10:44:52Z",
+ "actualizado": "2026-10-14T11:11:46Z",
  "alertas": [
+  {
+   "id": "0000070858-26-000481",
+   "ticker": "BAC",
+   "empresa": "Bank Of America",
+   "form": "8-K",
+   "fecha": "2026-10-14T10:44:44Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/0000070858-26-000481-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-20261014.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Bank Of America publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0000310158-26-000237",
    "ticker": "MRK",
@@ -1056,6 +1078,7 @@
   "0000063908-26-000076",
   "0000070858-26-000473",
   "0000070858-26-000478",
+  "0000070858-26-000481",
   "0000072971-26-000308",
   "0000072971-26-000312",
   "0000072971-26-000313",
