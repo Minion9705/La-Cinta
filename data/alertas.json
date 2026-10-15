@@ -1,6 +1,26 @@
 {
- "actualizado": "2026-10-15T15:09:20Z",
+ "actualizado": "2026-10-15T16:11:41Z",
  "alertas": [
+  {
+   "id": "0000004962-26-000383",
+   "ticker": "AXP",
+   "empresa": "American Express",
+   "form": "8-K",
+   "fecha": "2026-10-15T16:00:20Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000383/0000004962-26-000383-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000383/axp-20261015.htm",
+   "ia": false,
+   "items": [
+    "7.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "American Express compartió una presentación para inversionistas",
+   "pri": "La empresa compartió una presentación o comunicado para inversionistas.",
+   "int": "Ítem 7.01: divulgación bajo Regulación FD (presentaciones, comunicados).",
+   "porque": "A veces incluye actualizaciones de guía; vale la pena revisarlo."
+  },
   {
    "id": "0000909832-26-000096",
    "ticker": "COST",
@@ -1109,6 +1129,7 @@
   "0000004962-26-000373",
   "0000004962-26-000374",
   "0000004962-26-000376",
+  "0000004962-26-000383",
   "0000027904-26-000035",
   "0000027904-26-000038",
   "0000037996-26-000182",
