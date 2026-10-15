@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-15T20:07:41Z",
+ "actualizado": "2026-10-15T20:32:48Z",
  "alertas": [
+  {
+   "id": "0000316709-26-000035",
+   "ticker": "SCHW",
+   "empresa": "Schwab Charles",
+   "form": "8-K",
+   "fecha": "2026-10-15T20:18:01Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/0000316709-26-000035-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/schw-20261015.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Schwab Charles publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0001104659-26-116227",
    "ticker": "ABBV",
@@ -1229,6 +1250,7 @@
   "0000310158-26-000232",
   "0000310158-26-000234",
   "0000310158-26-000237",
+  "0000316709-26-000035",
   "0000320187-26-000184",
   "0000320187-26-000193",
   "0000354950-26-000172",
