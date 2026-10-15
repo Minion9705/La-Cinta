@@ -1,6 +1,26 @@
 {
- "actualizado": "2026-10-15T19:42:36Z",
+ "actualizado": "2026-10-15T20:07:41Z",
  "alertas": [
+  {
+   "id": "0001104659-26-116227",
+   "ticker": "ABBV",
+   "empresa": "AbbVie",
+   "form": "8-K",
+   "fecha": "2026-10-15T20:00:53Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926116227/0001104659-26-116227-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1551152/000110465926116227/tm2627361d1_8k.htm",
+   "ia": false,
+   "items": [
+    "5.02"
+   ],
+   "tipo": "dir",
+   "sev": "mix",
+   "relevancia": 2,
+   "titulo": "Cambio en la dirección de AbbVie",
+   "pri": "Entró o salió alguien importante de la dirección o de la junta de la empresa.",
+   "int": "Ítem 5.02: salida/nombramiento de directivos o consejeros, o cambios en su compensación.",
+   "porque": "Una salida repentina (sobre todo del CEO o del director financiero) suele preocupar al mercado."
+  },
   {
    "id": "0001104659-26-116198",
    "ticker": "CAT",
@@ -1287,6 +1307,7 @@
   "0001104659-26-113405",
   "0001104659-26-115323",
   "0001104659-26-116198",
+  "0001104659-26-116227",
   "0001108524-26-000212",
   "0001108524-26-000214",
   "0001108524-26-000217",
