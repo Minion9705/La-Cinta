@@ -1,6 +1,26 @@
 {
- "actualizado": "2026-10-16T10:44:07Z",
+ "actualizado": "2026-10-16T12:09:28Z",
  "alertas": [
+  {
+   "id": "0002115436-26-000013",
+   "ticker": "XOM",
+   "empresa": "ExxonMobil",
+   "form": "8-K",
+   "fecha": "2026-10-16T12:02:58Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000013/0002115436-26-000013-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000013/xom-20261016.htm",
+   "ia": false,
+   "items": [
+    "7.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "ExxonMobil compartió una presentación para inversionistas",
+   "pri": "La empresa compartió una presentación o comunicado para inversionistas.",
+   "int": "Ítem 7.01: divulgación bajo Regulación FD (presentaciones, comunicados).",
+   "porque": "A veces incluye actualizaciones de guía; vale la pena revisarlo."
+  },
   {
    "id": "0000316709-26-000035",
    "ticker": "SCHW",
@@ -1500,6 +1520,7 @@
   "0002058309-26-000019",
   "0002110304-26-000023",
   "0002110643-26-000020",
+  "0002115436-26-000013",
   "0002153131-26-000007"
  ]
 }
