@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-10-19T20:14:39Z",
+ "actualizado": "2026-10-19T20:43:38Z",
  "alertas": [
+  {
+   "id": "0000002488-26-000184",
+   "ticker": "AMD",
+   "empresa": "Advanced Micro Devices",
+   "form": "4",
+   "fecha": "2026-10-19T20:16:44Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/0000002488-26-000184-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/xslF345X06/wk-form4_1792441001.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "int",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Un directivo de Advanced Micro Devices vendió $9,3 millones en acciones",
+   "pri": "Forrest Eugene Norrod (EVP & GM DSG) vendió acciones de la empresa. Es común (impuestos, planes programados), así que por sí sola no es mala señal.",
+   "int": "Venta en mercado abierto (código S): 17.262 acciones a ~$540,70. Revisa si es un plan 10b5-1.",
+   "porque": "Las ventas de directivos son frecuentes; importan más si varios venden a la vez o si no hay plan programado."
+  },
   {
    "id": "0001193125-26-424989",
    "ticker": "WMT",
@@ -1372,6 +1390,7 @@
  ],
  "vistos": [
   "0000002488-26-000182",
+  "0000002488-26-000184",
   "0000004962-26-000357",
   "0000004962-26-000366",
   "0000004962-26-000368",
