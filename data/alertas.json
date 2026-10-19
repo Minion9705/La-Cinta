@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-10-19T14:50:23Z",
+ "actualizado": "2026-10-19T15:22:38Z",
  "alertas": [
+  {
+   "id": "0001193125-26-424835",
+   "ticker": "BAC",
+   "empresa": "Bank Of America",
+   "form": "424B5",
+   "fecha": "2026-10-19T15:11:05Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000119312526424835/0001193125-26-424835-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/70858/000119312526424835/d415907d424b5.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "dil",
+   "sev": "neg",
+   "relevancia": 3,
+   "titulo": "Bank Of America ofrece nuevos valores al público",
+   "pri": "La empresa está vendiendo acciones o bonos nuevos. Si son acciones, tu parte de la empresa se diluye un poco.",
+   "int": "Prospecto 424B5: oferta registrada (acciones, bonos o notas). Revisa tamaño, precio y uso de los fondos.",
+   "porque": "Una oferta de acciones grande suele presionar el precio a corto plazo."
+  },
   {
    "id": "0001193125-26-424733",
    "ticker": "WMT",
@@ -1561,6 +1579,7 @@
   "0001193125-26-414744",
   "0001193125-26-423187",
   "0001193125-26-424733",
+  "0001193125-26-424835",
   "0001196985-26-000004",
   "0001197647-26-000011",
   "0001199039-26-000016",
