@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-10-19T12:54:21Z",
+ "actualizado": "2026-10-19T13:30:50Z",
  "alertas": [
+  {
+   "id": "0001193125-26-424733",
+   "ticker": "WMT",
+   "empresa": "Walmart",
+   "form": "424B5",
+   "fecha": "2026-10-19T12:53:41Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526424733/0001193125-26-424733-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/104169/000119312526424733/d38470d424b5.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "dil",
+   "sev": "neg",
+   "relevancia": 3,
+   "titulo": "Walmart ofrece nuevos valores al público",
+   "pri": "La empresa está vendiendo acciones o bonos nuevos. Si son acciones, tu parte de la empresa se diluye un poco.",
+   "int": "Prospecto 424B5: oferta registrada (acciones, bonos o notas). Revisa tamaño, precio y uso de los fondos.",
+   "porque": "Una oferta de acciones grande suele presionar el precio a corto plazo."
+  },
   {
    "id": "0000909832-26-000100",
    "ticker": "COST",
@@ -1542,6 +1560,7 @@
   "0001193125-26-412669",
   "0001193125-26-414744",
   "0001193125-26-423187",
+  "0001193125-26-424733",
   "0001196985-26-000004",
   "0001197647-26-000011",
   "0001199039-26-000016",
