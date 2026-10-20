@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-20T09:09:20Z",
+ "actualizado": "2026-10-20T10:33:11Z",
  "alertas": [
+  {
+   "id": "0000040545-26-000063",
+   "ticker": "GE",
+   "empresa": "General Electric",
+   "form": "8-K",
+   "fecha": "2026-10-20T10:30:57Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000063/0000040545-26-000063-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000063/ge-20261020.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "General Electric publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0000002488-26-000184",
    "ticker": "AMD",
@@ -1408,6 +1429,7 @@
   "0000037996-26-000184",
   "0000037996-26-000186",
   "0000040545-26-000059",
+  "0000040545-26-000063",
   "0000051143-26-000086",
   "0000059478-26-000089",
   "0000059478-26-000091",
