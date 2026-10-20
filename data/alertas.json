@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-10-20T20:45:15Z",
+ "actualizado": "2026-10-20T21:12:06Z",
  "alertas": [
+  {
+   "id": "0001467858-26-000059",
+   "ticker": "GM",
+   "empresa": "General Motors",
+   "form": "10-Q",
+   "fecha": "2026-10-20T21:00:30Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000059/0001467858-26-000059-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000059/gm-20260930.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "General Motors presentó su reporte trimestral (10-Q)",
+   "pri": "La empresa entregó su reporte oficial del trimestre, con todos los detalles.",
+   "int": "Formulario 10-Q: estados financieros trimestrales no auditados y análisis de la gerencia (MD&A).",
+   "porque": "Normalmente ya se conocían los números, pero puede traer detalles nuevos sobre riesgos."
+  },
   {
    "id": "0001193125-26-426704",
    "ticker": "JPM",
@@ -1808,6 +1826,7 @@
   "0001403161-26-000123",
   "0001453149-26-000008",
   "0001467858-26-000056",
+  "0001467858-26-000059",
   "0001468233-26-000011",
   "0001520700-26-000010",
   "0001550608-26-000023",
