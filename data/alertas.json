@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-10-20T10:33:11Z",
+ "actualizado": "2026-10-20T11:04:23Z",
  "alertas": [
+  {
+   "id": "0000040545-26-000064",
+   "ticker": "GE",
+   "empresa": "General Electric",
+   "form": "10-Q",
+   "fecha": "2026-10-20T10:33:36Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/0000040545-26-000064-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/ge-20260930.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "General Electric presentó su reporte trimestral (10-Q)",
+   "pri": "La empresa entregó su reporte oficial del trimestre, con todos los detalles.",
+   "int": "Formulario 10-Q: estados financieros trimestrales no auditados y análisis de la gerencia (MD&A).",
+   "porque": "Normalmente ya se conocían los números, pero puede traer detalles nuevos sobre riesgos."
+  },
   {
    "id": "0000040545-26-000063",
    "ticker": "GE",
@@ -1430,6 +1448,7 @@
   "0000037996-26-000186",
   "0000040545-26-000059",
   "0000040545-26-000063",
+  "0000040545-26-000064",
   "0000051143-26-000086",
   "0000059478-26-000089",
   "0000059478-26-000091",
