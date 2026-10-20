@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-20T12:39:30Z",
+ "actualizado": "2026-10-20T13:19:49Z",
  "alertas": [
+  {
+   "id": "0001193125-26-425881",
+   "ticker": "CRM",
+   "empresa": "Salesforce",
+   "form": "8-K",
+   "fecha": "2026-10-20T13:16:53Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312526425881/0001193125-26-425881-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1108524/000119312526425881/d516983d8k.htm",
+   "ia": false,
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Salesforce compartió una presentación para inversionistas",
+   "pri": "La empresa compartió una presentación o comunicado para inversionistas.",
+   "int": "Ítem 7.01: divulgación bajo Regulación FD (presentaciones, comunicados).",
+   "porque": "A veces incluye actualizaciones de guía; vale la pena revisarlo."
+  },
   {
    "id": "0001467858-26-000056",
    "ticker": "GM",
@@ -1691,6 +1712,7 @@
   "0001193125-26-424733",
   "0001193125-26-424835",
   "0001193125-26-424989",
+  "0001193125-26-425881",
   "0001196985-26-000004",
   "0001197647-26-000011",
   "0001199039-26-000016",
