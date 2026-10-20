@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-20T19:23:14Z",
+ "actualizado": "2026-10-20T20:14:16Z",
  "alertas": [
+  {
+   "id": "0001065280-26-000290",
+   "ticker": "NFLX",
+   "empresa": "Netflix",
+   "form": "8-K",
+   "fecha": "2026-10-20T20:01:55Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/0001065280-26-000290-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/nflx-20261020.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Netflix publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0001193125-26-425881",
    "ticker": "CRM",
@@ -1633,6 +1654,7 @@
   "0001065280-26-000287",
   "0001065280-26-000288",
   "0001065280-26-000289",
+  "0001065280-26-000290",
   "0001087997-26-000012",
   "0001090355-26-000008",
   "0001104659-26-110983",
