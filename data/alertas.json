@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-20T11:04:23Z",
+ "actualizado": "2026-10-20T11:32:07Z",
  "alertas": [
+  {
+   "id": "0001467858-26-000056",
+   "ticker": "GM",
+   "empresa": "General Motors",
+   "form": "8-K",
+   "fecha": "2026-10-20T11:30:18Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000056/0001467858-26-000056-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000056/gm-20261020.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "General Motors publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0000040545-26-000064",
    "ticker": "GE",
@@ -1716,6 +1737,7 @@
   "0001403161-26-000121",
   "0001403161-26-000123",
   "0001453149-26-000008",
+  "0001467858-26-000056",
   "0001468233-26-000011",
   "0001520700-26-000010",
   "0001550608-26-000023",
