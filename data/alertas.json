@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-20T20:14:16Z",
+ "actualizado": "2026-10-20T20:45:15Z",
  "alertas": [
+  {
+   "id": "0001193125-26-426704",
+   "ticker": "JPM",
+   "empresa": "JPMorgan Chase",
+   "form": "8-K",
+   "fecha": "2026-10-20T20:15:28Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312526426704/0001193125-26-426704-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/19617/000119312526426704/d351999d8k.htm",
+   "ia": false,
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "JPMorgan Chase comunicó un anuncio a sus inversionistas",
+   "pri": "La empresa comunicó algo que considera importante (puede ser un dividendo, una recompra u otro anuncio).",
+   "int": "Ítem 8.01: otros eventos. Suele incluir dividendos, recompras o actualizaciones relevantes.",
+   "porque": "Depende del contenido; revisa el documento."
+  },
   {
    "id": "0001065280-26-000290",
    "ticker": "NFLX",
@@ -1516,6 +1537,8 @@
   "0000059478-26-000089",
   "0000059478-26-000091",
   "0000059478-26-000095",
+  "0000059478-26-000097",
+  "0000059478-26-000099",
   "0000063908-26-000076",
   "0000070858-26-000473",
   "0000070858-26-000478",
@@ -1735,6 +1758,7 @@
   "0001193125-26-424835",
   "0001193125-26-424989",
   "0001193125-26-425881",
+  "0001193125-26-426704",
   "0001196985-26-000004",
   "0001197647-26-000011",
   "0001199039-26-000016",
@@ -1758,8 +1782,10 @@
   "0001225208-26-008428",
   "0001225208-26-008439",
   "0001262388-26-000018",
+  "0001262388-26-000020",
   "0001269971-26-000004",
   "0001310215-26-000017",
+  "0001310215-26-000019",
   "0001332215-26-000004",
   "0001333760-26-000003",
   "0001341439-26-000086",
