@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-10-21T09:40:00Z",
+ "actualizado": "2026-10-21T14:39:00Z",
  "alertas": [
+  {
+   "id": "0000097745-26-000173",
+   "ticker": "TMO",
+   "empresa": "Thermo Fisher",
+   "form": "8-K",
+   "fecha": "2026-10-21T10:03:16Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000173/0000097745-26-000173-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000173/tmo-20261021.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Thermo Fisher publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0001467858-26-000059",
    "ticker": "GM",
@@ -1601,6 +1622,7 @@
   "0000080424-26-000245",
   "0000093410-26-000188",
   "0000093410-26-000192",
+  "0000097745-26-000173",
   "0000104169-26-000159",
   "0000104169-26-000160",
   "0000104169-26-000161",
