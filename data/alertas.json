@@ -1,6 +1,69 @@
 {
- "actualizado": "2026-10-22T10:14:20Z",
+ "actualizado": "2026-10-22T15:16:56Z",
  "alertas": [
+  {
+   "id": "0000080424-26-000252",
+   "ticker": "PG",
+   "empresa": "Procter & Gamble",
+   "form": "8-K",
+   "fecha": "2026-10-22T14:29:34Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000252/0000080424-26-000252-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000252/pg-20261022.htm",
+   "ia": false,
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Procter & Gamble compartió una presentación para inversionistas",
+   "pri": "La empresa compartió una presentación o comunicado para inversionistas.",
+   "int": "Ítem 7.01: divulgación bajo Regulación FD (presentaciones, comunicados).",
+   "porque": "A veces incluye actualizaciones de guía; vale la pena revisarlo."
+  },
+  {
+   "id": "0000080424-26-000250",
+   "ticker": "PG",
+   "empresa": "Procter & Gamble",
+   "form": "8-K",
+   "fecha": "2026-10-22T11:02:49Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000250/0000080424-26-000250-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000250/pg-20261022.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Procter & Gamble publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
+  {
+   "id": "0001628280-26-066780",
+   "ticker": "LMT",
+   "empresa": "Lockheed Martin",
+   "form": "8-K",
+   "fecha": "2026-10-22T10:26:08Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/0001628280-26-066780-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/lmt-20261022.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Lockheed Martin publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0001628280-26-066775",
    "ticker": "TSLA",
@@ -1853,6 +1916,8 @@
   "0000080424-26-000224",
   "0000080424-26-000225",
   "0000080424-26-000245",
+  "0000080424-26-000250",
+  "0000080424-26-000252",
   "0000093410-26-000188",
   "0000093410-26-000192",
   "0000093410-26-000194",
@@ -2142,6 +2207,7 @@
   "0001628280-26-066738",
   "0001628280-26-066773",
   "0001628280-26-066775",
+  "0001628280-26-066780",
   "0001628797-26-000004",
   "0001630253-26-000005",
   "0001671730-26-000007",
