@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-23T10:15:40Z",
+ "actualizado": "2026-10-23T15:04:38Z",
  "alertas": [
+  {
+   "id": "0001193125-26-429539",
+   "ticker": "WMT",
+   "empresa": "Walmart",
+   "form": "8-K",
+   "fecha": "2026-10-23T13:04:03Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000119312526429539/0001193125-26-429539-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/104169/000119312526429539/d184548d8k.htm",
+   "ia": false,
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Walmart comunicó un anuncio a sus inversionistas",
+   "pri": "La empresa comunicó algo que considera importante (puede ser un dividendo, una recompra u otro anuncio).",
+   "int": "Ítem 8.01: otros eventos. Suele incluir dividendos, recompras o actualizaciones relevantes.",
+   "porque": "Depende del contenido; revisa el documento."
+  },
+  {
+   "id": "0000004962-26-000405",
+   "ticker": "AXP",
+   "empresa": "American Express",
+   "form": "8-K",
+   "fecha": "2026-10-23T11:00:36Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/0000004962-26-000405-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/axp-20261023.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "American Express publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0001104659-26-118193",
    "ticker": "C",
@@ -1932,6 +1975,7 @@
   "0000004962-26-000374",
   "0000004962-26-000376",
   "0000004962-26-000383",
+  "0000004962-26-000405",
   "0000027904-26-000035",
   "0000027904-26-000038",
   "0000037996-26-000182",
@@ -2197,6 +2241,7 @@
   "0001193125-26-427921",
   "0001193125-26-427928",
   "0001193125-26-428699",
+  "0001193125-26-429539",
   "0001196985-26-000004",
   "0001197647-26-000011",
   "0001199039-26-000016",
