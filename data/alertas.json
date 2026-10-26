@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-10-26T14:09:06Z",
+ "actualizado": "2026-10-26T19:52:41Z",
  "alertas": [
+  {
+   "id": "0000080424-26-000263",
+   "ticker": "PG",
+   "empresa": "Procter & Gamble",
+   "form": "4",
+   "fecha": "2026-10-26T19:37:25Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000263/0000080424-26-000263-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000263/xslF345X06/form4.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "int",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Un directivo de Procter & Gamble vendió $5,7 millones en acciones",
+   "pri": "Shailesh Jejurikar (Chairman, President and CEO) vendió acciones de la empresa. Es común (impuestos, planes programados), así que por sí sola no es mala señal.",
+   "int": "Venta en mercado abierto (código S): 35.000 acciones a ~$163,09. Revisa si es un plan 10b5-1.",
+   "porque": "Las ventas de directivos son frecuentes; importan más si varios venden a la vez o si no hay plan programado."
+  },
   {
    "id": "0001628280-26-067163",
    "ticker": "PG",
@@ -2162,6 +2180,8 @@
   "0000080424-26-000252",
   "0000080424-26-000256",
   "0000080424-26-000260",
+  "0000080424-26-000261",
+  "0000080424-26-000263",
   "0000093410-26-000188",
   "0000093410-26-000192",
   "0000093410-26-000194",
