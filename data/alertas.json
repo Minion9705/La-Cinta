@@ -1,6 +1,24 @@
 {
- "actualizado": "2026-10-27T13:40:12Z",
+ "actualizado": "2026-10-27T18:56:51Z",
  "alertas": [
+  {
+   "id": "0001628280-26-067508",
+   "ticker": "BA",
+   "empresa": "Boeing",
+   "form": "10-Q",
+   "fecha": "2026-10-27T17:51:22Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/0001628280-26-067508-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Boeing presentó su reporte trimestral (10-Q)",
+   "pri": "La empresa entregó su reporte oficial del trimestre, con todos los detalles.",
+   "int": "Formulario 10-Q: estados financieros trimestrales no auditados y análisis de la gerencia (MD&A).",
+   "porque": "Normalmente ya se conocían los números, pero puede traer detalles nuevos sobre riesgos."
+  },
   {
    "id": "0001628280-26-067411",
    "ticker": "BA",
@@ -2630,6 +2648,7 @@
   "0001628280-26-067381",
   "0001628280-26-067403",
   "0001628280-26-067411",
+  "0001628280-26-067508",
   "0001628797-26-000004",
   "0001630253-26-000005",
   "0001630253-26-000007",
