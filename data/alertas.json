@@ -1,6 +1,45 @@
 {
- "actualizado": "2026-10-28T14:14:34Z",
+ "actualizado": "2026-10-28T19:34:02Z",
  "alertas": [
+  {
+   "id": "0001193125-26-435853",
+   "ticker": "ORCL",
+   "empresa": "Oracle",
+   "form": "8-K",
+   "fecha": "2026-10-28T18:24:44Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/0001193125-26-435853-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538d8k.htm",
+   "ia": false,
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "tipo": "otros",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Oracle compartió una presentación para inversionistas",
+   "pri": "La empresa compartió una presentación o comunicado para inversionistas.",
+   "int": "Ítem 7.01: divulgación bajo Regulación FD (presentaciones, comunicados).",
+   "porque": "A veces incluye actualizaciones de guía; vale la pena revisarlo."
+  },
+  {
+   "id": "0001628280-26-067844",
+   "ticker": "KO",
+   "empresa": "Coca-Cola",
+   "form": "10-Q",
+   "fecha": "2026-10-28T18:22:38Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/0001628280-26-067844-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/ko-20261002.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Coca-Cola presentó su reporte trimestral (10-Q)",
+   "pri": "La empresa entregó su reporte oficial del trimestre, con todos los detalles.",
+   "int": "Formulario 10-Q: estados financieros trimestrales no auditados y análisis de la gerencia (MD&A).",
+   "porque": "Normalmente ya se conocían los números, pero puede traer detalles nuevos sobre riesgos."
+  },
   {
    "id": "0000072971-26-000327",
    "ticker": "WFC",
@@ -2655,6 +2694,7 @@
   "0001193125-26-434840",
   "0001193125-26-434841",
   "0001193125-26-434846",
+  "0001193125-26-435853",
   "0001196985-26-000004",
   "0001197647-26-000011",
   "0001199039-26-000016",
@@ -2768,6 +2808,7 @@
   "0001628280-26-067403",
   "0001628280-26-067411",
   "0001628280-26-067508",
+  "0001628280-26-067844",
   "0001628797-26-000004",
   "0001630253-26-000005",
   "0001630253-26-000007",
