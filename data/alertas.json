@@ -1,6 +1,48 @@
 {
- "actualizado": "2026-10-30T05:49:17Z",
+ "actualizado": "2026-10-30T11:41:36Z",
  "alertas": [
+  {
+   "id": "0002115436-26-000018",
+   "ticker": "XOM",
+   "empresa": "ExxonMobil",
+   "form": "8-K",
+   "fecha": "2026-10-30T10:32:50Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000018/0002115436-26-000018-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000018/xom-20261030.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "7.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "ExxonMobil publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
+  {
+   "id": "0000093410-26-000196",
+   "ticker": "CVX",
+   "empresa": "Chevron",
+   "form": "8-K",
+   "fecha": "2026-10-30T10:16:00Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/0000093410-26-000196-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/cvx-20261030.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Chevron publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0000923738-26-000048",
    "ticker": "SCHW",
@@ -18,6 +60,42 @@
    "pri": "Charles R. Schwab (Co-Chairman) vendió acciones de la empresa. Es común (impuestos, planes programados), así que por sí sola no es mala señal.",
    "int": "Venta en mercado abierto (código S): 203.150 acciones a ~$89,12. Revisa si es un plan 10b5-1.",
    "porque": "Las ventas de directivos son frecuentes; importan más si varios venden a la vez o si no hay plan programado."
+  },
+  {
+   "id": "0000050863-26-000191",
+   "ticker": "INTC",
+   "empresa": "Intel",
+   "form": "10-Q",
+   "fecha": "2026-10-29T22:50:31Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/0000050863-26-000191-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Intel presentó su reporte trimestral (10-Q)",
+   "pri": "La empresa entregó su reporte oficial del trimestre, con todos los detalles.",
+   "int": "Formulario 10-Q: estados financieros trimestrales no auditados y análisis de la gerencia (MD&A).",
+   "porque": "Normalmente ya se conocían los números, pero puede traer detalles nuevos sobre riesgos."
+  },
+  {
+   "id": "0001018724-26-000040",
+   "ticker": "AMZN",
+   "empresa": "Amazon Com",
+   "form": "10-Q",
+   "fecha": "2026-10-29T22:20:46Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/0001018724-26-000040-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Amazon Com presentó su reporte trimestral (10-Q)",
+   "pri": "La empresa entregó su reporte oficial del trimestre, con todos los detalles.",
+   "int": "Formulario 10-Q: estados financieros trimestrales no auditados y análisis de la gerencia (MD&A).",
+   "porque": "Normalmente ya se conocían los números, pero puede traer detalles nuevos sobre riesgos."
   },
   {
    "id": "0001193125-26-438090",
@@ -2928,6 +3006,7 @@
   "0000040545-26-000063",
   "0000040545-26-000064",
   "0000050863-26-000188",
+  "0000050863-26-000191",
   "0000051143-26-000086",
   "0000051143-26-000093",
   "0000051143-26-000095",
@@ -3001,6 +3080,7 @@
   "0000093410-26-000188",
   "0000093410-26-000192",
   "0000093410-26-000194",
+  "0000093410-26-000196",
   "0000097745-26-000173",
   "0000104169-26-000159",
   "0000104169-26-000160",
@@ -3119,6 +3199,7 @@
   "0000950103-26-016314",
   "0001010270-26-000002",
   "0001018724-26-000038",
+  "0001018724-26-000040",
   "0001061272-26-000004",
   "0001065280-26-000281",
   "0001065280-26-000282",
@@ -3430,6 +3511,7 @@
   "0002110643-26-000020",
   "0002111867-26-000014",
   "0002115436-26-000013",
+  "0002115436-26-000018",
   "0002153131-26-000007"
  ]
 }
