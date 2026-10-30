@@ -1,6 +1,45 @@
 {
- "actualizado": "2026-10-30T11:41:36Z",
+ "actualizado": "2026-10-30T17:12:52Z",
  "alertas": [
+  {
+   "id": "0000097745-26-000179",
+   "ticker": "TMO",
+   "empresa": "Thermo Fisher",
+   "form": "10-Q",
+   "fecha": "2026-10-30T14:52:48Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000179/0000097745-26-000179-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000179/tmo-20260926.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Thermo Fisher presentó su reporte trimestral (10-Q)",
+   "pri": "La empresa entregó su reporte oficial del trimestre, con todos los detalles.",
+   "int": "Formulario 10-Q: estados financieros trimestrales no auditados y análisis de la gerencia (MD&A).",
+   "porque": "Normalmente ya se conocían los números, pero puede traer detalles nuevos sobre riesgos."
+  },
+  {
+   "id": "0001551152-26-000033",
+   "ticker": "ABBV",
+   "empresa": "AbbVie",
+   "form": "8-K",
+   "fecha": "2026-10-30T11:51:51Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000033/0001551152-26-000033-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000033/abbv-20261030.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "AbbVie publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0002115436-26-000018",
    "ticker": "XOM",
@@ -3082,6 +3121,7 @@
   "0000093410-26-000194",
   "0000093410-26-000196",
   "0000097745-26-000173",
+  "0000097745-26-000179",
   "0000104169-26-000159",
   "0000104169-26-000160",
   "0000104169-26-000161",
@@ -3393,6 +3433,7 @@
   "0001525321-26-000011",
   "0001550608-26-000023",
   "0001551152-26-000030",
+  "0001551152-26-000033",
   "0001554339-26-000004",
   "0001561563-26-000023",
   "0001561563-26-000025",
