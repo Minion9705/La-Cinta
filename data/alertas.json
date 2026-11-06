@@ -1,6 +1,45 @@
 {
- "actualizado": "2026-11-06T09:58:46Z",
+ "actualizado": "2026-11-06T17:08:09Z",
  "alertas": [
+  {
+   "id": "0001193125-26-450754",
+   "ticker": "META",
+   "empresa": "Meta Platforms",
+   "form": "424B5",
+   "fecha": "2026-11-06T12:35:49Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/0001193125-26-450754-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "dil",
+   "sev": "neg",
+   "relevancia": 3,
+   "titulo": "Meta Platforms ofrece nuevos valores al público",
+   "pri": "La empresa está vendiendo acciones o bonos nuevos. Si son acciones, tu parte de la empresa se diluye un poco.",
+   "int": "Prospecto 424B5: oferta registrada (acciones, bonos o notas). Revisa tamaño, precio y uso de los fondos.",
+   "porque": "Una oferta de acciones grande suele presionar el precio a corto plazo."
+  },
+  {
+   "id": "0001682852-26-000194",
+   "ticker": "MRNA",
+   "empresa": "Moderna",
+   "form": "8-K",
+   "fecha": "2026-11-06T11:47:30Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/0001682852-26-000194-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/mrna-20261106.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Moderna publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0000831001-26-000056",
    "ticker": "C",
@@ -4773,6 +4812,7 @@
   "0001193125-26-449835",
   "0001193125-26-449991",
   "0001193125-26-450074",
+  "0001193125-26-450754",
   "0001196985-26-000004",
   "0001197647-26-000011",
   "0001199039-26-000016",
@@ -4933,6 +4973,7 @@
   "0001679788-26-000122",
   "0001682852-26-000185",
   "0001682852-26-000187",
+  "0001682852-26-000194",
   "0001683168-26-008205",
   "0001685556-26-000008",
   "0001693709-26-000011",
