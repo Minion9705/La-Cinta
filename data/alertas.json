@@ -1,6 +1,45 @@
 {
- "actualizado": "2026-11-09T03:05:52Z",
+ "actualizado": "2026-11-09T11:18:37Z",
  "alertas": [
+  {
+   "id": "0001193125-26-452530",
+   "ticker": "BRK-B",
+   "empresa": "Berkshire Hathaway",
+   "form": "8-K",
+   "fecha": "2026-11-09T11:10:14Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452530/0001193125-26-452530-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452530/brka-20261107.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Berkshire Hathaway publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
+  {
+   "id": "0001193125-26-452412",
+   "ticker": "BRK-B",
+   "empresa": "Berkshire Hathaway",
+   "form": "10-Q",
+   "fecha": "2026-11-09T11:01:15Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/0001193125-26-452412-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "rep",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Berkshire Hathaway presentó su reporte trimestral (10-Q)",
+   "pri": "La empresa entregó su reporte oficial del trimestre, con todos los detalles.",
+   "int": "Formulario 10-Q: estados financieros trimestrales no auditados y análisis de la gerencia (MD&A).",
+   "porque": "Normalmente ya se conocían los números, pero puede traer detalles nuevos sobre riesgos."
+  },
   {
    "id": "0000064803-26-000112",
    "ticker": "CVS",
@@ -4933,6 +4972,8 @@
   "0001193125-26-450074",
   "0001193125-26-450754",
   "0001193125-26-451940",
+  "0001193125-26-452412",
+  "0001193125-26-452530",
   "0001196985-26-000004",
   "0001197647-26-000011",
   "0001197647-26-000013",
