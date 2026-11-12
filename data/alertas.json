@@ -1,6 +1,45 @@
 {
- "actualizado": "2026-11-12T07:38:28Z",
+ "actualizado": "2026-11-12T16:11:46Z",
  "alertas": [
+  {
+   "id": "0001045810-26-000082",
+   "ticker": "NVDA",
+   "empresa": "Nvidia",
+   "form": "8-K",
+   "fecha": "2026-11-12T13:52:41Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/0001045810-26-000082-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+   "ia": false,
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "tipo": "dir",
+   "sev": "mix",
+   "relevancia": 2,
+   "titulo": "Cambio en la dirección de Nvidia",
+   "pri": "Entró o salió alguien importante de la dirección o de la junta de la empresa.",
+   "int": "Ítem 5.02: salida/nombramiento de directivos o consejeros, o cambios en su compensación.",
+   "porque": "Una salida repentina (sobre todo del CEO o del director financiero) suele preocupar al mercado."
+  },
+  {
+   "id": "0001193125-26-456746",
+   "ticker": "SCHW",
+   "empresa": "Schwab Charles",
+   "form": "424B5",
+   "fecha": "2026-11-12T11:30:17Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/316709/000119312526456746/0001193125-26-456746-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/316709/000119312526456746/d130223d424b5.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "dil",
+   "sev": "neg",
+   "relevancia": 3,
+   "titulo": "Schwab Charles ofrece nuevos valores al público",
+   "pri": "La empresa está vendiendo acciones o bonos nuevos. Si son acciones, tu parte de la empresa se diluye un poco.",
+   "int": "Prospecto 424B5: oferta registrada (acciones, bonos o notas). Revisa tamaño, precio y uso de los fondos.",
+   "porque": "Una oferta de acciones grande suele presionar el precio a corto plazo."
+  },
   {
    "id": "0000923738-26-000052",
    "ticker": "SCHW",
@@ -4989,6 +5028,7 @@
   "0001010270-26-000002",
   "0001018724-26-000038",
   "0001018724-26-000040",
+  "0001045810-26-000082",
   "0001061272-26-000004",
   "0001065280-26-000281",
   "0001065280-26-000282",
@@ -5164,6 +5204,7 @@
   "0001193125-26-452530",
   "0001193125-26-452592",
   "0001193125-26-452773",
+  "0001193125-26-456746",
   "0001196985-26-000004",
   "0001197647-26-000011",
   "0001197647-26-000013",
