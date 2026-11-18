@@ -1,6 +1,45 @@
 {
- "actualizado": "2026-11-18T10:47:18Z",
+ "actualizado": "2026-11-18T19:06:46Z",
  "alertas": [
+  {
+   "id": "0000021344-26-000177",
+   "ticker": "KO",
+   "empresa": "Coca-Cola",
+   "form": "4",
+   "fecha": "2026-11-18T17:20:09Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000177/0000021344-26-000177-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000177/xslF345X06/form4.xml",
+   "ia": false,
+   "items": [],
+   "tipo": "int",
+   "sev": "neu",
+   "relevancia": 1,
+   "titulo": "Un directivo de Coca-Cola vendió $5,7 millones en acciones",
+   "pri": "Manuel Arroyo (Executive Vice President) vendió acciones de la empresa. Es común (impuestos, planes programados), así que por sí sola no es mala señal.",
+   "int": "Venta en mercado abierto (código S): 57.581 acciones a ~$99,40. Revisa si es un plan 10b5-1.",
+   "porque": "Las ventas de directivos son frecuentes; importan más si varios venden a la vez o si no hay plan programado."
+  },
+  {
+   "id": "0000027419-26-000051",
+   "ticker": "TGT",
+   "empresa": "Target",
+   "form": "8-K",
+   "fecha": "2026-11-18T11:46:59Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000051/0000027419-26-000051-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000051/tgt-20261118.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Target publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0000858877-26-000194",
    "ticker": "CSCO",
@@ -5445,7 +5484,10 @@
   "0000021344-26-000169",
   "0000021344-26-000171",
   "0000021344-26-000173",
+  "0000021344-26-000175",
+  "0000021344-26-000177",
   "0000027419-26-000049",
+  "0000027419-26-000051",
   "0000027904-26-000035",
   "0000027904-26-000038",
   "0000037996-26-000182",
