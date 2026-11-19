@@ -1,6 +1,45 @@
 {
- "actualizado": "2026-11-19T08:39:14Z",
+ "actualizado": "2026-11-19T17:37:15Z",
  "alertas": [
+  {
+   "id": "0001193125-26-467927",
+   "ticker": "GOOGL",
+   "empresa": "Alphabet (Google)",
+   "form": "424B5",
+   "fecha": "2026-11-19T14:34:38Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526467927/0001193125-26-467927-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526467927/d115240d424b5.htm",
+   "ia": false,
+   "items": [],
+   "tipo": "dil",
+   "sev": "neg",
+   "relevancia": 3,
+   "titulo": "Alphabet (Google) ofrece nuevos valores al público",
+   "pri": "La empresa está vendiendo acciones o bonos nuevos. Si son acciones, tu parte de la empresa se diluye un poco.",
+   "int": "Prospecto 424B5: oferta registrada (acciones, bonos o notas). Revisa tamaño, precio y uso de los fondos.",
+   "porque": "Una oferta de acciones grande suele presionar el precio a corto plazo."
+  },
+  {
+   "id": "0000104169-26-000168",
+   "ticker": "WMT",
+   "empresa": "Walmart",
+   "form": "8-K",
+   "fecha": "2026-11-19T11:58:52Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/0000104169-26-000168-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/wmt-20261119.htm",
+   "ia": false,
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "tipo": "res",
+   "sev": "mix",
+   "relevancia": 3,
+   "titulo": "Walmart publicó sus resultados del trimestre",
+   "pri": "La empresa dio a conocer cuánto vendió y ganó en el trimestre. Lo que más mueve la acción suele ser lo que espera para el futuro.",
+   "int": "Ítem 2.02: resultados de operaciones. Revisa el comunicado (anexo 99.1): ingresos, BPA, márgenes y guía.",
+   "porque": "Los resultados y, sobre todo, la guía para el próximo trimestre suelen mover más la acción que cualquier otra noticia."
+  },
   {
    "id": "0001140361-26-044773",
    "ticker": "AAPL",
@@ -5735,6 +5774,7 @@
   "0000104169-26-000160",
   "0000104169-26-000161",
   "0000104169-26-000165",
+  "0000104169-26-000168",
   "0000200406-26-000189",
   "0000200406-26-000197",
   "0000200406-26-000199",
@@ -6133,6 +6173,7 @@
   "0001193125-26-465047",
   "0001193125-26-465872",
   "0001193125-26-465958",
+  "0001193125-26-467927",
   "0001196985-26-000004",
   "0001197647-26-000011",
   "0001197647-26-000013",
