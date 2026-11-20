@@ -1,6 +1,28 @@
 {
- "actualizado": "2026-11-20T04:20:16Z",
+ "actualizado": "2026-11-20T13:08:08Z",
  "alertas": [
+  {
+   "id": "0001193125-26-469335",
+   "ticker": "PYPL",
+   "empresa": "PayPal",
+   "form": "8-K",
+   "fecha": "2026-11-20T12:56:03Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1633917/000119312526469335/0001193125-26-469335-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1633917/000119312526469335/d196713d8k.htm",
+   "ia": false,
+   "items": [
+    "5.02",
+    "7.01",
+    "9.01"
+   ],
+   "tipo": "dir",
+   "sev": "mix",
+   "relevancia": 2,
+   "titulo": "Cambio en la dirección de PayPal",
+   "pri": "Entró o salió alguien importante de la dirección o de la junta de la empresa.",
+   "int": "Ítem 5.02: salida/nombramiento de directivos o consejeros, o cambios en su compensación.",
+   "porque": "Una salida repentina (sobre todo del CEO o del director financiero) suele preocupar al mercado."
+  },
   {
    "id": "0000923738-26-000054",
    "ticker": "SCHW",
@@ -6262,6 +6284,7 @@
   "0001193125-26-467927",
   "0001193125-26-468549",
   "0001193125-26-468887",
+  "0001193125-26-469335",
   "0001196985-26-000004",
   "0001197647-26-000011",
   "0001197647-26-000013",
