@@ -1,6 +1,27 @@
 {
- "actualizado": "2026-11-23T04:07:48Z",
+ "actualizado": "2026-11-23T14:27:49Z",
  "alertas": [
+  {
+   "id": "0001045810-26-000090",
+   "ticker": "NVDA",
+   "empresa": "Nvidia",
+   "form": "8-K",
+   "fecha": "2026-11-23T13:57:54Z",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/0001045810-26-000090-index.htm",
+   "doc": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+   "ia": false,
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "tipo": "dir",
+   "sev": "mix",
+   "relevancia": 2,
+   "titulo": "Cambio en la dirección de Nvidia",
+   "pri": "Entró o salió alguien importante de la dirección o de la junta de la empresa.",
+   "int": "Ítem 5.02: salida/nombramiento de directivos o consejeros, o cambios en su compensación.",
+   "porque": "Una salida repentina (sobre todo del CEO o del director financiero) suele preocupar al mercado."
+  },
   {
    "id": "0001628280-26-075328",
    "ticker": "DIS",
@@ -6240,6 +6261,7 @@
   "0001018724-26-000056",
   "0001045810-26-000082",
   "0001045810-26-000088",
+  "0001045810-26-000090",
   "0001061272-26-000004",
   "0001065280-26-000281",
   "0001065280-26-000282",
